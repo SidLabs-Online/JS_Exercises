@@ -1,17 +1,16 @@
-# Java Script Objects Exercise
+# Java Script JSON Exercise
 
 ### Instructions :
-  - Create a object '_createUser_' that has name and gender as params 
-  - Create its getter & setter methods
-  - Create a set of x5 users using a loop and store their information in a dictionary called '_listOfUsers_' and traverse the dict in the format given in the 'Expected Output' section
-  - Create x3 users one by one named _Bernard_, _Olivia_ and _Alba_, print their individual information to the console with the text : "Bernard greets Olivia and Alba!"
+  - Create input fields to take name, age, contact & location as user data 
+  - Store user response in a dictionary with a 'store now!' button
+  - Traverse the dictionary everytime the button is pressed
+  - Ignore null data & send browser alerts to the user
+  - Reset form after every entry
 
 ### Test :
   ```javascript:
-  console.log(user1.getName()+" greets "+user2.getName()+" and "+user3.getName()+"!");
-  console.log("");
-  console.log(listOfUsers);
+  
   ```
 
 ### Expected Output :
-  ![alt text](img1.png)
+  ![alt text]()

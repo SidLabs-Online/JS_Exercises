@@ -9,14 +9,35 @@
   <body>
     <img src="logo.png" alt="Logo" style="height:10%;width:10%;">
     <h3>Java Script Exercises</h3>
-    <hr><br>
+    <hr><br><br>
+      <form id="myform" onsubmit="return addUser(this)">
+      <label for="fname">Name:</label>
+      <input type="text" id="fname" name="fname">
+      <label for="lname">Age:</label>
+      <input type="number" id="age" name="age">
+      <label for="fname">Contact:</label>
+      <input type="text" id="cntct" name="cntct">
+      <label for="fname">Location:</label>
+      <input type="text" id="loc" name="loc">
+      <input id="submit" type="submit" value="save now!">
+        
+    </form>
+      <!-- <p>Name : <input type="text" placeholder="Enter name" /></p><br>
+      <p>Age : <input type="number" placeholder="Enter age" /></p><br>
+      <p>Contact : <input type="text" placeholder="Enter #" /></p><br>  
+      <p>Location : <input type="text" placeholder="Enter Loc" /></p><br>
+      <button id="submit">store now!</button> -->
+
+    
+    <br><br><hr><br>
       <h4>In this file :</h4>
 
           <ul>
-            <li>Creating a JS object</li>
-            <li>Storing Js Object into a dictionary</li>
-            <li>Traversing through a dictionary in Js</li>
-            <li>Creating & using multiple instances of an object</li>
+            <li>Create input fields to take name, age, contact & location as user data </li>
+            <li>Store user response in a dictionary with a 'store now!' button</li>
+            <li>Traverse the dictionary everytime the button is pressed</li>
+            <li>Ignore null data & send browser alerts to the user</li>
+            <li>Reset form after every entry</li>
           </ul>
 
     
@@ -24,9 +45,8 @@
   </body>
   <footer>
 
-  <p>Author: Sid<br>
-  <a href="connect@sidlabs.net">connect@sidlabs.net</a></p>
-  <a href="https://www.sidlabs.net/">SidLbs</a>
+  <p>Author: Sid<br><a href="connect@sidlabs.net">connect@sidlabs.net</a></p>
+  <a href="https://www.sidlabs.net/">SidLabs</a>
 
   </footer>
 </html>

@@ -7,3 +7,28 @@ footer {
 h3, h4{
   padding: 5px;
 }
+label, input{
+  padding: 5px;
+  margin : 20px;
+}
+label { display: table-row; }
+input { display: table-row; }
+
+
+#submit {
+ background-color: #bbb;
+ padding: .5em;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+ border-radius: 6px;
+ color: #fff;
+ font-family: 'Oswald';
+ font-size: 20px;
+ text-decoration: none;
+ border: none;
+}
+#submit:hover {
+ border: none;
+ background: orange;
+ box-shadow: 0px 0px 1px #777;
+}
